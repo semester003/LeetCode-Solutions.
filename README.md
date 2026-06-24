@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0099-recover-binary-search-tree](https://github.com/semester003/LeetCode-Solutions./tree/master/0099-recover-binary-search-tree) |
 | [0130-surrounded-regions](https://github.com/semester003/LeetCode-Solutions./tree/master/0130-surrounded-regions) |
 | [0733-flood-fill](https://github.com/semester003/LeetCode-Solutions./tree/master/0733-flood-fill) |
 | [0785-is-graph-bipartite](https://github.com/semester003/LeetCode-Solutions./tree/master/0785-is-graph-bipartite) |
@@ -44,4 +45,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0785-is-graph-bipartite](https://github.com/semester003/LeetCode-Solutions./tree/master/0785-is-graph-bipartite) |
+## Tree
+|  |
+| ------- |
+| [0099-recover-binary-search-tree](https://github.com/semester003/LeetCode-Solutions./tree/master/0099-recover-binary-search-tree) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0099-recover-binary-search-tree](https://github.com/semester003/LeetCode-Solutions./tree/master/0099-recover-binary-search-tree) |
+## Binary Tree
+|  |
+| ------- |
+| [0099-recover-binary-search-tree](https://github.com/semester003/LeetCode-Solutions./tree/master/0099-recover-binary-search-tree) |
 <!---LeetCode Topics End-->
