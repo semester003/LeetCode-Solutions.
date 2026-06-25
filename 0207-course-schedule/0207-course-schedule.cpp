@@ -4,20 +4,15 @@ public:
         
         // adjacency list 
         vector<vector<int>> adjLs(numCourses) ;
+        vector<int> indegree(numCourses , 0) ;
+        // building graph
         for( auto edge : prerequisites ){
             int u = edge[0] ;
             int v = edge[1] ;
             
             adjLs[u].push_back(v) ;
-              
-        }
-        
-        vector<int> indegree(numCourses) ;
-        for(auto edge : prerequisites ){
-            int u = edge[0];
-            int v = edge[1];
-
             indegree[v]++;
+              
         }
         
         queue<int> q ;
@@ -25,13 +20,13 @@ public:
         for(int i=0 ; i<numCourses ; i++){
             if(indegree[i] == 0) q.push(i) ;
         }
-        
-        vector<int> topoSort ;
+
+        int topoSort = 0 ;
         
         while(!q.empty()){
             int node = q.front() ;
             q.pop() ;
-            topoSort.push_back(node) ;
+            topoSort++ ;
             
             for( auto adjacentNode : adjLs[node]){
                 indegree[adjacentNode]-- ;
@@ -39,7 +34,7 @@ public:
             }
         }
         
-        if(topoSort.size() == numCourses) return true ;
+        if(topoSort == numCourses) return true ;
         else return false ;
 
     }
