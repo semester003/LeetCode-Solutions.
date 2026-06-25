@@ -1,44 +1,47 @@
 class Solution {
 public:
     bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
-
-        vector<vector<int>> adj(numCourses);
-        vector<int> indegree(numCourses, 0);
-
-        // Build graph
-        for (auto &edge : prerequisites) {
-            int course = edge[0];
-            int prereq = edge[1];
-
-            adj[prereq].push_back(course);
-            indegree[course]++;
+        
+        // adjacency list 
+        vector<vector<int>> adjLs(numCourses) ;
+        for( auto edge : prerequisites ){
+            int u = edge[0] ;
+            int v = edge[1] ;
+            
+            adjLs[u].push_back(v) ;
+              
         }
+        
+        vector<int> indegree(numCourses) ;
+        for(auto edge : prerequisites ){
+            int u = edge[0];
+            int v = edge[1];
 
-        queue<int> q;
-
-        // Push all nodes having indegree 0
-        for (int i = 0; i < numCourses; i++) {
-            if (indegree[i] == 0)
-                q.push(i);
+            indegree[v]++;
         }
-
-        int count = 0;
-
-        while (!q.empty()) {
-
-            int node = q.front();
-            q.pop();
-
-            count++;
-
-            for (int neigh : adj[node]) {
-                indegree[neigh]--;
-
-                if (indegree[neigh] == 0)
-                    q.push(neigh);
+        
+        queue<int> q ;
+        
+        for(int i=0 ; i<numCourses ; i++){
+            if(indegree[i] == 0) q.push(i) ;
+        }
+        
+        vector<int> topoSort ;
+        
+        while(!q.empty()){
+            int node = q.front() ;
+            q.pop() ;
+            topoSort.push_back(node) ;
+            
+            for( auto adjacentNode : adjLs[node]){
+                indegree[adjacentNode]-- ;
+                if( indegree[adjacentNode] == 0) q.push(adjacentNode) ;
             }
         }
+        
+        if(topoSort.size() == numCourses) return true ;
+        else return false ;
 
-        return count == numCourses;
     }
+        
 };
