@@ -7,11 +7,11 @@ public:
         vector<int> indegree(numCourses , 0) ;
         // building graph
         for( auto edge : prerequisites ){
-            int u = edge[0] ;
-            int v = edge[1] ;
+            int course = edge[0] ;
+            int prereq = edge[1] ;
             
-            adjLs[v].push_back(u) ;
-            indegree[u]++;
+            adjLs[prereq].push_back(course) ;
+            indegree[course]++;
               
         }
         
