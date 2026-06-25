@@ -10,8 +10,8 @@ public:
             int u = edge[0] ;
             int v = edge[1] ;
             
-            adjLs[u].push_back(v) ;
-            indegree[v]++;
+            adjLs[v].push_back(u) ;
+            indegree[u]++;
               
         }
         
