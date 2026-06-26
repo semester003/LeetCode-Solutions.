@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0130-surrounded-regions](https://github.com/semester003/LeetCode-Solutions./tree/master/0130-surrounded-regions) |
+| [0540-single-element-in-a-sorted-array](https://github.com/semester003/LeetCode-Solutions./tree/master/0540-single-element-in-a-sorted-array) |
 | [0542-01-matrix](https://github.com/semester003/LeetCode-Solutions./tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/semester003/LeetCode-Solutions./tree/master/0733-flood-fill) |
 | [1020-number-of-enclaves](https://github.com/semester003/LeetCode-Solutions./tree/master/1020-number-of-enclaves) |
@@ -64,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0099-recover-binary-search-tree](https://github.com/semester003/LeetCode-Solutions./tree/master/0099-recover-binary-search-tree) |
+| [0540-single-element-in-a-sorted-array](https://github.com/semester003/LeetCode-Solutions./tree/master/0540-single-element-in-a-sorted-array) |
 ## Binary Tree
 |  |
 | ------- |
