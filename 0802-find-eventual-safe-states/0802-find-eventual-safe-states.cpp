@@ -33,13 +33,13 @@ private:
     }
 
 public:
-    vector<int> eventualSafeNodes(vector<vector<int>>& graph) {
+    /* vector<int> eventualSafeNodes(vector<vector<int>>& graph) {
     
         int V = graph.size() ; 
         vector<int> vis( V , 0 ) ;
         vector<int> pathVis( V , 0 ) ;
         vector<int> safe ;
-        vector<int> check(V , 0) ;
+        vector<int> check(V , 0) ;   // if we use check , there will be no need to sort the safe vector at the last 
         
         for( int i = 0 ; i < V ; i++){
             if(!vis[i]){
@@ -53,5 +53,63 @@ public:
         return safe ;
 
         
+    } */
+
+    vector<int> eventualSafeNodes(vector<vector<int>>& graph){
+        // reversing the graph 
+        int V = graph.size() ;
+        vector<int> indegree(V) ;
+        vector<vector<int>> revGraph(V) ;
+        for( int i = 0 ; i < V ; i++ ){
+            for( auto it : graph[i] ){
+                indegree[i]++ ;
+                revGraph[it].push_back(i) ;
+            }
+        }
+        queue<int> q ;
+        for(int i = 0 ; i < V ; i++ ){
+            if( indegree[i] == 0 ) q.push(i) ;    // element with indegree zero will be the safe node, cause we have reversed te he graph
+        }
+
+        vector<int> check (V ,0) ;
+
+        while(!q.empty()){
+            int node = q.front();
+            q.pop();
+            check[node] = 1 ;
+
+            for( auto neigh : revGraph[node]){
+                indegree[neigh]-- ;
+                if( indegree[neigh] == 0 ) q.push(neigh) ;
+            }
+
+        }
+        vector<int> safe ;
+        for( int i = 0 ; i < V ; i++ ){
+            if( check[i] == 1) safe.push_back(i) ;
+        }
+        return safe  ;
+
+
     }
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
