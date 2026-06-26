@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0033-search-in-rotated-sorted-array](https://github.com/semester003/LeetCode-Solutions./tree/master/0033-search-in-rotated-sorted-array) |
 | [0130-surrounded-regions](https://github.com/semester003/LeetCode-Solutions./tree/master/0130-surrounded-regions) |
 | [0540-single-element-in-a-sorted-array](https://github.com/semester003/LeetCode-Solutions./tree/master/0540-single-element-in-a-sorted-array) |
 | [0542-01-matrix](https://github.com/semester003/LeetCode-Solutions./tree/master/0542-01-matrix) |
@@ -64,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search Tree
 |  |
 | ------- |
+| [0033-search-in-rotated-sorted-array](https://github.com/semester003/LeetCode-Solutions./tree/master/0033-search-in-rotated-sorted-array) |
 | [0099-recover-binary-search-tree](https://github.com/semester003/LeetCode-Solutions./tree/master/0099-recover-binary-search-tree) |
 | [0540-single-element-in-a-sorted-array](https://github.com/semester003/LeetCode-Solutions./tree/master/0540-single-element-in-a-sorted-array) |
 ## Binary Tree
