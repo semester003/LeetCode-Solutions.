@@ -10,7 +10,7 @@ public:
             int mid = low + ( high - low )/2 ;
             if( nums[mid] == target ) return mid ;
 
-            // left sorted
+            // left half is sorted
             if( nums[0] <= nums[mid] ){
                 if(nums[0] <= target && target < nums[mid] ){
                     high = mid - 1 ;
@@ -19,8 +19,8 @@ public:
                     low = mid + 1 ;
                 }
             }
-            else{ // right sorted 
-                if(nums[mid] < target && target <= nums[n-1]){
+            else{ // right half is sorted  
+                if(nums[mid] < target && target <= nums[high]){
                     low = mid + 1 ;
                 }
                 else{
