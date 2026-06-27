@@ -5,6 +5,9 @@ private:
 
         for(int bananas : piles ){
             hours += ( bananas + speed - 1 ) / speed ;   //hoursTaken += ceil(piles[i] / k) ;
+
+            if (hours > h)
+            return false;
         }
 
         return hours <= h ;
