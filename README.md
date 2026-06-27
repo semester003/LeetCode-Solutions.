@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/semester003/LeetCode-Solutions./tree/master/0033-search-in-rotated-sorted-array) |
+| [0035-search-insert-position](https://github.com/semester003/LeetCode-Solutions./tree/master/0035-search-insert-position) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/semester003/LeetCode-Solutions./tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0130-surrounded-regions](https://github.com/semester003/LeetCode-Solutions./tree/master/0130-surrounded-regions) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/semester003/LeetCode-Solutions./tree/master/0153-find-minimum-in-rotated-sorted-array) |
@@ -68,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/semester003/LeetCode-Solutions./tree/master/0033-search-in-rotated-sorted-array) |
+| [0035-search-insert-position](https://github.com/semester003/LeetCode-Solutions./tree/master/0035-search-insert-position) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/semester003/LeetCode-Solutions./tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0099-recover-binary-search-tree](https://github.com/semester003/LeetCode-Solutions./tree/master/0099-recover-binary-search-tree) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/semester003/LeetCode-Solutions./tree/master/0153-find-minimum-in-rotated-sorted-array) |
