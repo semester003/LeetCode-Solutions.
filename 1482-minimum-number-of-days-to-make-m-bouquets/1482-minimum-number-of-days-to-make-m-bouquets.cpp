@@ -29,7 +29,7 @@ private:
 
 public:
     int minDays(vector<int>& bloomDay, int m, int k) {
-        long long x = m * 1LL * k * 1LL ;
+        long long x = m * 1LL * k * 1LL ;    // to prevent overflow 
         if( x > bloomDay.size()) return -1 ;
         // my search space{7,8,9,10,11,12,13}
         int low = *min_element(bloomDay.begin() , bloomDay.end()) ;
@@ -40,7 +40,7 @@ public:
             int mid = low + (high - low)/2 ;
 
             if(check(mid , bloomDay , m , k)){
-                minDays = min( minDays , mid ) ;
+                minDays = mid ;
                 high = mid - 1 ;
 
             }
