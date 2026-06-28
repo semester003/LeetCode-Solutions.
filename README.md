@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/semester003/LeetCode-Solutions./tree/master/0733-flood-fill) |
 | [0875-koko-eating-bananas](https://github.com/semester003/LeetCode-Solutions./tree/master/0875-koko-eating-bananas) |
 | [1020-number-of-enclaves](https://github.com/semester003/LeetCode-Solutions./tree/master/1020-number-of-enclaves) |
+| [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/semester003/LeetCode-Solutions./tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -77,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/semester003/LeetCode-Solutions./tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0540-single-element-in-a-sorted-array](https://github.com/semester003/LeetCode-Solutions./tree/master/0540-single-element-in-a-sorted-array) |
 | [0875-koko-eating-bananas](https://github.com/semester003/LeetCode-Solutions./tree/master/0875-koko-eating-bananas) |
+| [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/semester003/LeetCode-Solutions./tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
 ## Binary Tree
 |  |
 | ------- |
