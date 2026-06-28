@@ -4,7 +4,7 @@ private:
         // sum of the division's result.
         long long th = 0 ;
         for( int number : nums ){
-            th += ceil( (double)number / divisor) ;  // use this intead "th += (number + divisor - 1) / divisor"
+            th += (number + divisor - 1) / divisor ;  //th += ceil( (double)number / divisor)
             if( th > threshold){
                 return false ;  // no need to go further 
             }
@@ -23,7 +23,7 @@ public:
             int mid = low + (high - low)/2 ;
 
             if(check(mid , nums , threshold)){
-                ans = min( ans , mid ) ;
+                ans = mid ;
                 high = mid - 1 ;
 
             }
