@@ -26,6 +26,7 @@ public:
             int col = it.second.second;
             pq.pop();
 
+            // check for destination when taking it out of pq not while inserting it 
             if( row == n-1 && col == m-1) return diff ;
 
             for( int i = 0 ; i < 4 ; i++){
