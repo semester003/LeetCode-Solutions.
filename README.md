@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/semester003/LeetCode-Solutions./tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/semester003/LeetCode-Solutions./tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
 | [1539-kth-missing-positive-number](https://github.com/semester003/LeetCode-Solutions./tree/master/1539-kth-missing-positive-number) |
+| [1631-path-with-minimum-effort](https://github.com/semester003/LeetCode-Solutions./tree/master/1631-path-with-minimum-effort) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -32,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0785-is-graph-bipartite](https://github.com/semester003/LeetCode-Solutions./tree/master/0785-is-graph-bipartite) |
 | [0802-find-eventual-safe-states](https://github.com/semester003/LeetCode-Solutions./tree/master/0802-find-eventual-safe-states) |
 | [1020-number-of-enclaves](https://github.com/semester003/LeetCode-Solutions./tree/master/1020-number-of-enclaves) |
+| [1631-path-with-minimum-effort](https://github.com/semester003/LeetCode-Solutions./tree/master/1631-path-with-minimum-effort) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -44,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0802-find-eventual-safe-states](https://github.com/semester003/LeetCode-Solutions./tree/master/0802-find-eventual-safe-states) |
 | [1020-number-of-enclaves](https://github.com/semester003/LeetCode-Solutions./tree/master/1020-number-of-enclaves) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/semester003/LeetCode-Solutions./tree/master/1091-shortest-path-in-binary-matrix) |
+| [1631-path-with-minimum-effort](https://github.com/semester003/LeetCode-Solutions./tree/master/1631-path-with-minimum-effort) |
 ## Matrix
 |  |
 | ------- |
@@ -52,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/semester003/LeetCode-Solutions./tree/master/0733-flood-fill) |
 | [1020-number-of-enclaves](https://github.com/semester003/LeetCode-Solutions./tree/master/1020-number-of-enclaves) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/semester003/LeetCode-Solutions./tree/master/1091-shortest-path-in-binary-matrix) |
+| [1631-path-with-minimum-effort](https://github.com/semester003/LeetCode-Solutions./tree/master/1631-path-with-minimum-effort) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -62,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0130-surrounded-regions](https://github.com/semester003/LeetCode-Solutions./tree/master/0130-surrounded-regions) |
 | [0785-is-graph-bipartite](https://github.com/semester003/LeetCode-Solutions./tree/master/0785-is-graph-bipartite) |
 | [1020-number-of-enclaves](https://github.com/semester003/LeetCode-Solutions./tree/master/1020-number-of-enclaves) |
+| [1631-path-with-minimum-effort](https://github.com/semester003/LeetCode-Solutions./tree/master/1631-path-with-minimum-effort) |
 ## Graph Theory
 |  |
 | ------- |
@@ -88,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/semester003/LeetCode-Solutions./tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/semester003/LeetCode-Solutions./tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
 | [1539-kth-missing-positive-number](https://github.com/semester003/LeetCode-Solutions./tree/master/1539-kth-missing-positive-number) |
+| [1631-path-with-minimum-effort](https://github.com/semester003/LeetCode-Solutions./tree/master/1631-path-with-minimum-effort) |
 ## Binary Tree
 |  |
 | ------- |
@@ -131,4 +137,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/semester003/LeetCode-Solutions./tree/master/0169-majority-element) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [1631-path-with-minimum-effort](https://github.com/semester003/LeetCode-Solutions./tree/master/1631-path-with-minimum-effort) |
 <!---LeetCode Topics End-->
