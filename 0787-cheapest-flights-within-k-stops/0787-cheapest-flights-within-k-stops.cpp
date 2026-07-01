@@ -30,7 +30,7 @@ public:
                 int neigh = it.first ;
                 int edgewt = it.second ;
 
-                if( dis + edgewt < dist[neigh] && stops <= k ) {
+                if( dis + edgewt < dist[neigh] ) {
                     dist[neigh] = dis + edgewt ;
                     q.push( { stops + 1 , { neigh , dist[neigh] } } ) ;
                 }
