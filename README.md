@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0207-course-schedule](https://github.com/semester003/LeetCode-Solutions./tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/semester003/LeetCode-Solutions./tree/master/0210-course-schedule-ii) |
 | [0733-flood-fill](https://github.com/semester003/LeetCode-Solutions./tree/master/0733-flood-fill) |
+| [0743-network-delay-time](https://github.com/semester003/LeetCode-Solutions./tree/master/0743-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/semester003/LeetCode-Solutions./tree/master/0785-is-graph-bipartite) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/semester003/LeetCode-Solutions./tree/master/0787-cheapest-flights-within-k-stops) |
 | [0802-find-eventual-safe-states](https://github.com/semester003/LeetCode-Solutions./tree/master/0802-find-eventual-safe-states) |
@@ -43,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0210-course-schedule-ii](https://github.com/semester003/LeetCode-Solutions./tree/master/0210-course-schedule-ii) |
 | [0542-01-matrix](https://github.com/semester003/LeetCode-Solutions./tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/semester003/LeetCode-Solutions./tree/master/0733-flood-fill) |
+| [0743-network-delay-time](https://github.com/semester003/LeetCode-Solutions./tree/master/0743-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/semester003/LeetCode-Solutions./tree/master/0785-is-graph-bipartite) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/semester003/LeetCode-Solutions./tree/master/0787-cheapest-flights-within-k-stops) |
 | [0802-find-eventual-safe-states](https://github.com/semester003/LeetCode-Solutions./tree/master/0802-find-eventual-safe-states) |
@@ -76,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0207-course-schedule](https://github.com/semester003/LeetCode-Solutions./tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/semester003/LeetCode-Solutions./tree/master/0210-course-schedule-ii) |
+| [0743-network-delay-time](https://github.com/semester003/LeetCode-Solutions./tree/master/0743-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/semester003/LeetCode-Solutions./tree/master/0785-is-graph-bipartite) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/semester003/LeetCode-Solutions./tree/master/0787-cheapest-flights-within-k-stops) |
 | [0802-find-eventual-safe-states](https://github.com/semester003/LeetCode-Solutions./tree/master/0802-find-eventual-safe-states) |
@@ -147,11 +150,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0743-network-delay-time](https://github.com/semester003/LeetCode-Solutions./tree/master/0743-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/semester003/LeetCode-Solutions./tree/master/0787-cheapest-flights-within-k-stops) |
 | [1631-path-with-minimum-effort](https://github.com/semester003/LeetCode-Solutions./tree/master/1631-path-with-minimum-effort) |
 ## Shortest Path
 |  |
 | ------- |
+| [0743-network-delay-time](https://github.com/semester003/LeetCode-Solutions./tree/master/0743-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/semester003/LeetCode-Solutions./tree/master/0787-cheapest-flights-within-k-stops) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/semester003/LeetCode-Solutions./tree/master/1976-number-of-ways-to-arrive-at-destination) |
 <!---LeetCode Topics End-->
