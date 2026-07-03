@@ -14,49 +14,38 @@ public:
 
         }
         for( int i=0 ; i<n ; i++){
-            for( int j=0 ; j<n ; j++){
-                if( i == j){
-                    cost[i][j] = 0 ;
-                }
-            }
+                cost[i][i] = 0 ;
         }
+        
 
         // computing ultimate matrix
         for( int k = 0  ; k < n ; k++){
             for( int i = 0 ;  i < n ; i++){
                 for( int j = 0 ;  j < n ; j++ ){
-                    cost[i][j] = min( cost[i][j] , cost[i][k]+cost[k][j]) ;
-                }
-            }
-        }
-
-        vector<vector<int>> cities(n) ;
-        for(int i = 0 ; i < n ; i++){
-            for( int j = 0 ; j<n ; j++){
-                if( i != j && cost[i][j] <= distanceThreshold  ){
-                    cities[i].push_back(j) ;
+                    if( cost[i][k] != 1e9 && cost[k][j] ){
+                        cost[i][j] = min( cost[i][j] , cost[i][k]+cost[k][j]) ;
+                    }
+                    
                 }
             }
         }
         int ans = -1 ;
-        int no = n-1 ;
+        int noOfReachableCities = n-1 ;
 
-        for( int i = 0 ; i < n ; i++){
-            
-            if( cities[i].size() <= no ){
-                no = cities[i].size() ;
+        for(int i = 0 ; i < n ; i++){
+            int cnt = 0 ;
+            for( int j = 0 ; j<n ; j++){
+                if( i != j && cost[i][j] <= distanceThreshold  ){
+                    cnt++ ;
+                }
+            }
+            if( cnt <= noOfReachableCities ){
                 ans = i ;
+                noOfReachableCities = cnt ;
             }
         }
+
         return ans ;
-
-
-
-
-
-
-
-
         
     }
 };
