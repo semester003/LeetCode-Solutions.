@@ -162,4 +162,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0787-cheapest-flights-within-k-stops](https://github.com/semester003/LeetCode-Solutions./tree/master/0787-cheapest-flights-within-k-stops) |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/semester003/LeetCode-Solutions./tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/semester003/LeetCode-Solutions./tree/master/1976-number-of-ways-to-arrive-at-destination) |
+## Math
+|  |
+| ------- |
+| [1922-count-good-numbers](https://github.com/semester003/LeetCode-Solutions./tree/master/1922-count-good-numbers) |
+## Recursion
+|  |
+| ------- |
+| [1922-count-good-numbers](https://github.com/semester003/LeetCode-Solutions./tree/master/1922-count-good-numbers) |
 <!---LeetCode Topics End-->
