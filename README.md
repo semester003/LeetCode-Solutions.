@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/semester003/LeetCode-Solutions./tree/master/0033-search-in-rotated-sorted-array) |
 | [0035-search-insert-position](https://github.com/semester003/LeetCode-Solutions./tree/master/0035-search-insert-position) |
+| [0039-combination-sum](https://github.com/semester003/LeetCode-Solutions./tree/master/0039-combination-sum) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/semester003/LeetCode-Solutions./tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0130-surrounded-regions](https://github.com/semester003/LeetCode-Solutions./tree/master/0130-surrounded-regions) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/semester003/LeetCode-Solutions./tree/master/0153-find-minimum-in-rotated-sorted-array) |
@@ -174,4 +175,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1922-count-good-numbers](https://github.com/semester003/LeetCode-Solutions./tree/master/1922-count-good-numbers) |
+## Backtracking
+|  |
+| ------- |
+| [0039-combination-sum](https://github.com/semester003/LeetCode-Solutions./tree/master/0039-combination-sum) |
 <!---LeetCode Topics End-->
