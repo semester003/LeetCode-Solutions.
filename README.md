@@ -67,6 +67,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/semester003/LeetCode-Solutions./tree/master/0070-climbing-stairs) |
 | [0542-01-matrix](https://github.com/semester003/LeetCode-Solutions./tree/master/0542-01-matrix) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/semester003/LeetCode-Solutions./tree/master/0787-cheapest-flights-within-k-stops) |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/semester003/LeetCode-Solutions./tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
@@ -174,6 +175,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/semester003/LeetCode-Solutions./tree/master/0070-climbing-stairs) |
 | [1922-count-good-numbers](https://github.com/semester003/LeetCode-Solutions./tree/master/1922-count-good-numbers) |
 ## Recursion
 |  |
@@ -183,4 +185,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0039-combination-sum](https://github.com/semester003/LeetCode-Solutions./tree/master/0039-combination-sum) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/semester003/LeetCode-Solutions./tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
