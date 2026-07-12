@@ -3,7 +3,7 @@ private:
     int f( int index , vector<int>& nums , vector<int>& dp ){
         if( index < 0 ) return 0 ;
 
-        if( dp[index] != -1) return dp[index] ;
+        if( dp[index] != -1) return dp[index] ;  // memoization 
 
         // if we are robbing the ith house , then take it's money and rob the next house but not the adjacent(i-1) house
         int left = nums[index] + f(index-2 , nums , dp) ;
@@ -16,11 +16,26 @@ private:
 public:
     int rob(vector<int>& nums) {
         int n = nums.size() ;
+        if(n == 1) return nums[0] ; 
 
         vector<int> dp(n , -1) ;
+        // base cases
+        dp[0] = nums[0] ;
+        dp[1] = max( nums[1] , nums[0] ) ;
 
-        int ans = f(n-1 , nums , dp ) ;
-        return ans ;
+
+        // int ans = f(n-1 , nums , dp ) ;
+        // return ans ;
         
+        // tabulation
+        for( int i = 2 ; i < n ; i++){
+            int left = nums[i] + dp[i - 2] ;
+            int right = dp[i - 1] ;
+
+            dp[i] = max( left , right ) ;
+
+        }
+
+        return dp[n-1] ;
     }
 };
