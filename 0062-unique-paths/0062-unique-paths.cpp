@@ -43,6 +43,28 @@ private:
         return dp[m-1][n-1] ;
     }
 
+    int space_optimisation(int m , int n ){
+        // declare dp or prev 
+        vector<int> dp(n , 0) ; // dp = [0,0,0,0,0,0]
+
+        // express all states in for loop
+        for( int row = 0 ; row <= m-1 ; row++){
+            vector<int> temp(n , 0) ;
+            for(int col = 0 ; col <= n-1 ; col++){
+                if(row == 0 && col == 0) dp[col] = 1 ;
+                else{
+                    // int up = 0 ;
+                    // int left = 0 ;
+                    // if( row > 0 ) up = dp[row-1][col] ;
+                    // if( col > 0 ) left = dp[row][col-1] ;
+
+                    temp[col] = dp[col] + temp[col-1] ;
+                }
+            }
+        }
+        return dp[n-1] ;
+    }
+
 public:
     int uniquePaths(int m, int n) {
         // vector<vector<int>> dp( m , vector<int> ( n , -1 )) ;
