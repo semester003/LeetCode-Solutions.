@@ -30,13 +30,8 @@ int tabulation(int m , int n , vector<vector<int>>& obstacleGrid  ){
         // declare dp 
         vector<vector<int>> dp( m , vector<int> ( n , -1 )) ;
 
-        // if( m == 1 && n == 1 ){
-        //     if( obstacleGrid[0][0] == 1 ) dp[0][0] = 0 ;
-        //     else dp[0][0] = 1 ;
-        // }
-
-        // base case 
-        // if( obstacleGrid[0][0] != 1 ) dp[0][0] = 1 ;
+        //base case 
+        if( obstacleGrid[0][0] != 1 ) dp[0][0] = 1 ;
 
         // express all states in for loop
         for( int row = 0 ; row <= m-1 ; row++){
