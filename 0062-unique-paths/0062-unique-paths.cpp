@@ -5,6 +5,7 @@ private:
         if(row == 0 && col == 0){
             return  1 ;
         }
+        //incase we go outside of the grid
         if( row <0  || col < 0) return 0 ;
 
         // memoization
