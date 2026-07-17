@@ -37,6 +37,30 @@ private:
 
     }
 
+    int space_optimisation(vector<vector<int>>& triangle , int n ){  
+
+        vector<int> prev( n , INT_MAX) ;
+        // base case 
+        for( int j = 0 ; j <= n-1 ; j++ ){
+            prev[j] = triangle[n-1][j] ;
+        }
+
+        for( int i = n-2 ; i >= 0 ; i--){
+            vector<int> temp ( n , 0 ) ;
+            for( int j = i ; j >= 0 ; j--){
+
+                int down = triangle[i][j] + prev[j] ;
+                int diag = triangle[i][j] + prev[j+1] ;
+
+                temp[j] = min( down , diag ) ;
+            }
+            prev = temp ;
+        }
+
+        return prev[0] ; 
+
+    }
+
 public:
     int minimumTotal(vector<vector<int>>& triangle) {
         int n = triangle.size() ;
@@ -44,7 +68,7 @@ public:
         //vector<vector<int>> dp( n , vector<int>  ( n , INT_MAX)) ;   
 
         //int ans = f( 0 , 0 , triangle , n , dp ) ;
-        int ans = tabulation( triangle , n ) ;
+        int ans = space_optimisation( triangle , n ) ;
         return ans ;
     }
 };
