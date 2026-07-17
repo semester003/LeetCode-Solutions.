@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0542-01-matrix](https://github.com/semester003/LeetCode-Solutions./tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/semester003/LeetCode-Solutions./tree/master/0733-flood-fill) |
 | [0875-koko-eating-bananas](https://github.com/semester003/LeetCode-Solutions./tree/master/0875-koko-eating-bananas) |
+| [0931-minimum-falling-path-sum](https://github.com/semester003/LeetCode-Solutions./tree/master/0931-minimum-falling-path-sum) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/semester003/LeetCode-Solutions./tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1020-number-of-enclaves](https://github.com/semester003/LeetCode-Solutions./tree/master/1020-number-of-enclaves) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/semester003/LeetCode-Solutions./tree/master/1091-shortest-path-in-binary-matrix) |
@@ -68,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0130-surrounded-regions](https://github.com/semester003/LeetCode-Solutions./tree/master/0130-surrounded-regions) |
 | [0542-01-matrix](https://github.com/semester003/LeetCode-Solutions./tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/semester003/LeetCode-Solutions./tree/master/0733-flood-fill) |
+| [0931-minimum-falling-path-sum](https://github.com/semester003/LeetCode-Solutions./tree/master/0931-minimum-falling-path-sum) |
 | [1020-number-of-enclaves](https://github.com/semester003/LeetCode-Solutions./tree/master/1020-number-of-enclaves) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/semester003/LeetCode-Solutions./tree/master/1091-shortest-path-in-binary-matrix) |
 | [1631-path-with-minimum-effort](https://github.com/semester003/LeetCode-Solutions./tree/master/1631-path-with-minimum-effort) |
@@ -83,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0213-house-robber-ii](https://github.com/semester003/LeetCode-Solutions./tree/master/0213-house-robber-ii) |
 | [0542-01-matrix](https://github.com/semester003/LeetCode-Solutions./tree/master/0542-01-matrix) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/semester003/LeetCode-Solutions./tree/master/0787-cheapest-flights-within-k-stops) |
+| [0931-minimum-falling-path-sum](https://github.com/semester003/LeetCode-Solutions./tree/master/0931-minimum-falling-path-sum) |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/semester003/LeetCode-Solutions./tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/semester003/LeetCode-Solutions./tree/master/1976-number-of-ways-to-arrive-at-destination) |
 ## Union-Find
