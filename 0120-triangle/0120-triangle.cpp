@@ -5,7 +5,7 @@ private:
         // base case 
         if( i == n-1 ) return triangle[n-1][j] ;
         // memoization
-        if( dp[i][j] != 1e9 ) return dp[i][j] ;
+        if( dp[i][j] != INT_MAX ) return dp[i][j] ;
 
         // all stuffs
         int down = triangle[i][j] + f( i+1 , j , triangle , n , dp) ;
@@ -18,7 +18,7 @@ public:
     int minimumTotal(vector<vector<int>>& triangle) {
         int n = triangle.size() ;
         // cant initialize dp with -1 this time cause triangle contain negatives as well ,
-        vector<vector<int>> dp( n , vector<int>  ( n , 1e9)) ;   
+        vector<vector<int>> dp( n , vector<int>  ( n , INT_MAX)) ;   
 
         int ans = f( 0 , 0 , triangle , n , dp ) ;
         return ans ;
