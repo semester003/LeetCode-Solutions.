@@ -39,11 +39,36 @@ private:
         
         int ans = INT_MAX ;
         for( int j = 0 ; j <= n-1 ; j++){
-            int path_sum = dp[n-1][j] ;
-            ans = min( ans , path_sum ) ;
+            ans = min( ans , dp[n-1][j] ) ;
         }
         return ans ; 
+    }
+    int space_optimisation( int n , vector<vector<int>>& matrix ){
+        vector<int> prev(n , 1e9 ) ;
+        // base cases 
+        for(int j = 0 ; j <= n-1 ; j++){
+            prev[j] = matrix[0][j] ;
+        }
 
+        for( int i = 1 ; i <= n-1 ; i++){
+            vector<int> curr( n , 0 ) ;
+            for( int j = 0 ; j <= n-1 ; j++){
+                int up = matrix[i][j] + prev[j] ;
+                int left = 1e9 ;
+                if( j > 0 ) left = matrix[i][j] + prev[j-1] ;
+                int right = 1e9 ;
+                if( j < n-1 ) right = matrix[i][j] + prev[j+1] ;
+
+                curr[j] =  min( up , min(left , right) ) ;
+            }
+            prev = curr ;
+        }
+        
+        int ans = INT_MAX ;
+        for( int j = 0 ; j <= n-1 ; j++){
+            ans = min( ans , prev[j] ) ;
+        }
+        return ans ; 
     }
 public:
     int minFallingPathSum(vector<vector<int>>& matrix) {
@@ -56,10 +81,11 @@ public:
         //     int path_sum = f( n-1 , j , matrix  , n , dp ) ;
         //     ans = min( ans , path_sum ) ;
         // }
+        //return ans ;
 
         
 
-        return tabulation( n , matrix ) ;
+        return space_optimisation( n , matrix ) ;
         
     }
 };
