@@ -11,7 +11,7 @@ private:
         if( dp[i][j1][j2] != -1 ) return dp[i][j1][j2] ;
 
         // explore all paths 
-        int maxi = 0 ;
+        int maxi = -1e9 ;
         for( int dj1 = -1 ; dj1 <= 1 ; dj1++ ){
             for( int dj2 = -1 ; dj2 <= 1 ; dj2++ ){
 
