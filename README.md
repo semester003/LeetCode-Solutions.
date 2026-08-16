@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0039-combination-sum](https://github.com/semester003/LeetCode-Solutions./tree/master/0039-combination-sum) |
 | [0063-unique-paths-ii](https://github.com/semester003/LeetCode-Solutions./tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/semester003/LeetCode-Solutions./tree/master/0064-minimum-path-sum) |
+| [0075-sort-colors](https://github.com/semester003/LeetCode-Solutions./tree/master/0075-sort-colors) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/semester003/LeetCode-Solutions./tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0120-triangle](https://github.com/semester003/LeetCode-Solutions./tree/master/0120-triangle) |
 | [0130-surrounded-regions](https://github.com/semester003/LeetCode-Solutions./tree/master/0130-surrounded-regions) |
@@ -156,6 +157,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0075-sort-colors](https://github.com/semester003/LeetCode-Solutions./tree/master/0075-sort-colors) |
 | [0344-reverse-string](https://github.com/semester003/LeetCode-Solutions./tree/master/0344-reverse-string) |
 ## String
 |  |
@@ -173,6 +175,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0075-sort-colors](https://github.com/semester003/LeetCode-Solutions./tree/master/0075-sort-colors) |
 | [0169-majority-element](https://github.com/semester003/LeetCode-Solutions./tree/master/0169-majority-element) |
 ## Counting
 |  |
@@ -213,4 +216,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/semester003/LeetCode-Solutions./tree/master/0062-unique-paths) |
+## Quicksort
+|  |
+| ------- |
+| [0075-sort-colors](https://github.com/semester003/LeetCode-Solutions./tree/master/0075-sort-colors) |
+## Bubble Sort
+|  |
+| ------- |
+| [0075-sort-colors](https://github.com/semester003/LeetCode-Solutions./tree/master/0075-sort-colors) |
 <!---LeetCode Topics End-->
