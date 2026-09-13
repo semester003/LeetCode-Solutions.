@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0120-triangle](https://github.com/semester003/LeetCode-Solutions./tree/master/0120-triangle) |
 | [0130-surrounded-regions](https://github.com/semester003/LeetCode-Solutions./tree/master/0130-surrounded-regions) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/semester003/LeetCode-Solutions./tree/master/0153-find-minimum-in-rotated-sorted-array) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/semester003/LeetCode-Solutions./tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0169-majority-element](https://github.com/semester003/LeetCode-Solutions./tree/master/0169-majority-element) |
 | [0198-house-robber](https://github.com/semester003/LeetCode-Solutions./tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/semester003/LeetCode-Solutions./tree/master/0213-house-robber-ii) |
@@ -131,6 +132,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/semester003/LeetCode-Solutions./tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0099-recover-binary-search-tree](https://github.com/semester003/LeetCode-Solutions./tree/master/0099-recover-binary-search-tree) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/semester003/LeetCode-Solutions./tree/master/0153-find-minimum-in-rotated-sorted-array) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/semester003/LeetCode-Solutions./tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0540-single-element-in-a-sorted-array](https://github.com/semester003/LeetCode-Solutions./tree/master/0540-single-element-in-a-sorted-array) |
 | [0875-koko-eating-bananas](https://github.com/semester003/LeetCode-Solutions./tree/master/0875-koko-eating-bananas) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/semester003/LeetCode-Solutions./tree/master/1011-capacity-to-ship-packages-within-d-days) |
@@ -163,6 +165,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0027-remove-element](https://github.com/semester003/LeetCode-Solutions./tree/master/0027-remove-element) |
 | [0075-sort-colors](https://github.com/semester003/LeetCode-Solutions./tree/master/0075-sort-colors) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/semester003/LeetCode-Solutions./tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0344-reverse-string](https://github.com/semester003/LeetCode-Solutions./tree/master/0344-reverse-string) |
 | [0881-boats-to-save-people](https://github.com/semester003/LeetCode-Solutions./tree/master/0881-boats-to-save-people) |
 ## String
