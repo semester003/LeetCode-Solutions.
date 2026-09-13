@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/semester003/LeetCode-Solutions./tree/master/0001-two-sum) |
 | [0027-remove-element](https://github.com/semester003/LeetCode-Solutions./tree/master/0027-remove-element) |
 | [0033-search-in-rotated-sorted-array](https://github.com/semester003/LeetCode-Solutions./tree/master/0033-search-in-rotated-sorted-array) |
 | [0035-search-insert-position](https://github.com/semester003/LeetCode-Solutions./tree/master/0035-search-insert-position) |
@@ -175,6 +176,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/semester003/LeetCode-Solutions./tree/master/0001-two-sum) |
 | [0169-majority-element](https://github.com/semester003/LeetCode-Solutions./tree/master/0169-majority-element) |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/semester003/LeetCode-Solutions./tree/master/0947-most-stones-removed-with-same-row-or-column) |
 ## Divide and Conquer
