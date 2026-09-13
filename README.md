@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0542-01-matrix](https://github.com/semester003/LeetCode-Solutions./tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/semester003/LeetCode-Solutions./tree/master/0733-flood-fill) |
 | [0875-koko-eating-bananas](https://github.com/semester003/LeetCode-Solutions./tree/master/0875-koko-eating-bananas) |
+| [0881-boats-to-save-people](https://github.com/semester003/LeetCode-Solutions./tree/master/0881-boats-to-save-people) |
 | [0931-minimum-falling-path-sum](https://github.com/semester003/LeetCode-Solutions./tree/master/0931-minimum-falling-path-sum) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/semester003/LeetCode-Solutions./tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1020-number-of-enclaves](https://github.com/semester003/LeetCode-Solutions./tree/master/1020-number-of-enclaves) |
@@ -163,6 +164,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0027-remove-element](https://github.com/semester003/LeetCode-Solutions./tree/master/0027-remove-element) |
 | [0075-sort-colors](https://github.com/semester003/LeetCode-Solutions./tree/master/0075-sort-colors) |
 | [0344-reverse-string](https://github.com/semester003/LeetCode-Solutions./tree/master/0344-reverse-string) |
+| [0881-boats-to-save-people](https://github.com/semester003/LeetCode-Solutions./tree/master/0881-boats-to-save-people) |
 ## String
 |  |
 | ------- |
@@ -181,6 +183,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0075-sort-colors](https://github.com/semester003/LeetCode-Solutions./tree/master/0075-sort-colors) |
 | [0169-majority-element](https://github.com/semester003/LeetCode-Solutions./tree/master/0169-majority-element) |
+| [0881-boats-to-save-people](https://github.com/semester003/LeetCode-Solutions./tree/master/0881-boats-to-save-people) |
 ## Counting
 |  |
 | ------- |
@@ -236,4 +239,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0416-partition-equal-subset-sum](https://github.com/semester003/LeetCode-Solutions./tree/master/0416-partition-equal-subset-sum) |
+## Greedy
+|  |
+| ------- |
+| [0881-boats-to-save-people](https://github.com/semester003/LeetCode-Solutions./tree/master/0881-boats-to-save-people) |
+## Timsort
+|  |
+| ------- |
+| [0881-boats-to-save-people](https://github.com/semester003/LeetCode-Solutions./tree/master/0881-boats-to-save-people) |
 <!---LeetCode Topics End-->
