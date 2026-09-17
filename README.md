@@ -171,10 +171,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/semester003/LeetCode-Solutions./tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0344-reverse-string](https://github.com/semester003/LeetCode-Solutions./tree/master/0344-reverse-string) |
 | [0881-boats-to-save-people](https://github.com/semester003/LeetCode-Solutions./tree/master/0881-boats-to-save-people) |
+| [3992-rearrange-string-to-avoid-character-pair](https://github.com/semester003/LeetCode-Solutions./tree/master/3992-rearrange-string-to-avoid-character-pair) |
 ## String
 |  |
 | ------- |
 | [0344-reverse-string](https://github.com/semester003/LeetCode-Solutions./tree/master/0344-reverse-string) |
+| [3992-rearrange-string-to-avoid-character-pair](https://github.com/semester003/LeetCode-Solutions./tree/master/3992-rearrange-string-to-avoid-character-pair) |
 ## Hash Table
 |  |
 | ------- |
@@ -191,6 +193,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/semester003/LeetCode-Solutions./tree/master/0075-sort-colors) |
 | [0169-majority-element](https://github.com/semester003/LeetCode-Solutions./tree/master/0169-majority-element) |
 | [0881-boats-to-save-people](https://github.com/semester003/LeetCode-Solutions./tree/master/0881-boats-to-save-people) |
+| [3992-rearrange-string-to-avoid-character-pair](https://github.com/semester003/LeetCode-Solutions./tree/master/3992-rearrange-string-to-avoid-character-pair) |
 ## Counting
 |  |
 | ------- |
