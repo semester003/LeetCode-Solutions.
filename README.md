@@ -217,6 +217,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0062-unique-paths](https://github.com/semester003/LeetCode-Solutions./tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/semester003/LeetCode-Solutions./tree/master/0070-climbing-stairs) |
 | [1922-count-good-numbers](https://github.com/semester003/LeetCode-Solutions./tree/master/1922-count-good-numbers) |
+| [3993-maximum-value-of-an-alternating-sequence](https://github.com/semester003/LeetCode-Solutions./tree/master/3993-maximum-value-of-an-alternating-sequence) |
 ## Recursion
 |  |
 | ------- |
@@ -254,6 +255,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0011-container-with-most-water](https://github.com/semester003/LeetCode-Solutions./tree/master/0011-container-with-most-water) |
 | [0881-boats-to-save-people](https://github.com/semester003/LeetCode-Solutions./tree/master/0881-boats-to-save-people) |
+| [3993-maximum-value-of-an-alternating-sequence](https://github.com/semester003/LeetCode-Solutions./tree/master/3993-maximum-value-of-an-alternating-sequence) |
 ## Timsort
 |  |
 | ------- |
