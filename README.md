@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/semester003/LeetCode-Solutions./tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
 | [1539-kth-missing-positive-number](https://github.com/semester003/LeetCode-Solutions./tree/master/1539-kth-missing-positive-number) |
 | [1631-path-with-minimum-effort](https://github.com/semester003/LeetCode-Solutions./tree/master/1631-path-with-minimum-effort) |
+| [3994-minimum-adjacent-swaps-to-partition-array](https://github.com/semester003/LeetCode-Solutions./tree/master/3994-minimum-adjacent-swaps-to-partition-array) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -256,6 +257,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0011-container-with-most-water](https://github.com/semester003/LeetCode-Solutions./tree/master/0011-container-with-most-water) |
 | [0881-boats-to-save-people](https://github.com/semester003/LeetCode-Solutions./tree/master/0881-boats-to-save-people) |
 | [3993-maximum-value-of-an-alternating-sequence](https://github.com/semester003/LeetCode-Solutions./tree/master/3993-maximum-value-of-an-alternating-sequence) |
+| [3994-minimum-adjacent-swaps-to-partition-array](https://github.com/semester003/LeetCode-Solutions./tree/master/3994-minimum-adjacent-swaps-to-partition-array) |
 ## Timsort
 |  |
 | ------- |
