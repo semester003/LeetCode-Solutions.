@@ -26,7 +26,7 @@ public:
             }
         }
 
-        return swaps ;
+        return (int)swaps ;
         
     }
 };
